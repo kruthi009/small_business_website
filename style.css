@@ -1,0 +1,531 @@
+.nav{
+   background-color:cornflowerblue;
+   z-index: 9;
+   padding: 10px;
+   padding-left: 10px;
+   padding-right: 50px;
+   display: flex;
+    box-shadow: 0px 3px 60px rgba(0,0,0,1.5);
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo img{
+    float: left;
+    width: 40;
+}
+.nav_side{
+    float:right;
+    width:60;
+    margin-top: 30px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 50px;
+    color: black;
+    font-weight: bold;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+.main{
+    background-image: url('newBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    height:90vh;
+
+}
+.main .main_content{
+    margin-top: 9%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10%;
+    text-align: center;
+    color:black;
+}
+.main .main_content h2{
+    color:black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;
+}
+.main .main_content h2 span{
+    color:black;
+    font-size: 20px ;
+    padding-top: 10px;
+    opacity: 0.9;
+    font-weight: lighter;
+    line-height: 20px;
+}
+.main .main_content .btn{
+    margin: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color:orangered;
+    background-color:cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgba(0,0,0,.15);
+    border-radius: 10px;
+}
+.main .main_content .btn a:hover{
+    color: crimson;
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    border: none;
+    border-bottom: 5px crimson;
+}
+.product{
+    color: black;
+    font-size: 35px;
+    text-align: center; 
+}
+.product h3{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.product .product_container{
+    display:flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item {
+    width: 34%;
+    margin:10px;
+    height:auto;
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(61, 54, 54, 0.15);
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height:250px;
+    overflow:hidden;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height:250px;
+}
+.product .product_container .item .item_content{
+    text-align: center;
+}
+.product .product_container .item .item_content h3{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product .product_container .item .item_content p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product .product_container .item .item_content a{
+    text-decoration: none;
+    margin: 0.5px;
+    padding: 10px;
+    color:orangered;
+    background-color:cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgba(0,0,0,0.15);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.product .product_container .item .item_content a:hover{
+    color: crimson;
+    text-decoration: underline;
+    transition: 0.5s;
+    border: none;
+    border-bottom: 5px crimson;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.product .product_btn a{
+    text-decoration: none;
+    padding: 10px;
+    color:orangered;
+    background-color:cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgba(0,0,0,0.15);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.keypoint{
+    padding: 50px;
+}
+.keypoint h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+.keypoint .key_container{
+    display: flex;
+}
+.keypoint .key_container .key_content{
+    width:40%;
+    padding:20px;
+    float: left;
+}
+.keypoint .key_container .key_content li{
+    list-style: none;
+    margin: 5px;
+    padding: 30px;
+    border-left: 1px;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+}
+.keypoint .key_container .key_img{
+    float:right;
+    width: 40%;
+    margin-left: 10%;
+}
+.keypoint .key_container .key_img img{
+    width: 100%;
+    height: 70%;
+}
+.testi{
+    padding: 10px;
+}
+.testi h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.testi .testi_container{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.testi .testi_container .item{
+    width: 100%;
+    padding: 20px;
+    height:75%;
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height:250px;
+    text-align: center;
+    overflow:hidden;
+}
+.testi .testi_container .item .item_img img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.testi .testi_container  .item .item_content{
+    text-align: center;
+}
+.testi .testi_container .item .item_content h3{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.testi .testi_container  .item .item_content p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.team{
+    padding: 20px;
+}
+.team h3{
+    text-align: center;
+    color: black;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+}
+.team .team_container{
+    display:flex;
+}
+.team .team_container .team_video{
+    width: 50%;
+    padding: 20px;
+}
+.team .team_container .team_video video{
+    width: 100%;
+    border: 3px solid black;
+}
+.team .team_container .team_content{
+    width: 50%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.team .team_container .team_content p{
+    text-align: justify;
+    color: black;
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+}
+.feed{
+    padding: 20px;
+    background-image: url("bg3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.feed h2{
+    text-align: center;
+    color: black;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+}
+.feed .feed_form{
+    text-align: center;
+    border: 12px;
+}
+.feed .feed_form form input{
+    width:35%;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form textarea{
+    width:35%;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form button{
+    width:35%;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: 20;
+}
+.about_us{
+    padding: 100px;
+}
+.about_us h2{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    font-family: cosmic, sans-serif;
+    text-transform: uppercase;
+}
+.about_us p{
+    text-align: center;
+    color: black;
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    line-height: 35px;
+
+}
+.contact_container{
+    padding: 100px;
+}
+
+.contact_container h2{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    font-family: cosmic, sans-serif;
+    text-transform: uppercase;
+
+} 
+.contact_container .contact_content p{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    line-height: 10px;
+    font-family: cosmic, sans-serif;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: auto;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+footer{
+    background-color:rgba(0,0,0,0.15);
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h4{
+    color: black;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 5px;
+    color:black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer .pages a:hover{
+    color: brown;
+
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h4{
+    color: black;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 5px;
+    color:black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer .doc a:hover{
+    color: brown;
+
+}
+footer .social{
+    text-align: center;
+}
+
+footer .social a{
+    font-size: 35px;
+    color:cornflowerblue;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer .social a:hover{
+    color: rgb(56, 47, 47);
+}
+footer .social h4{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:3px;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h4{
+    color: black;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+
+}
+footer .contact a{
+    font-size: 15px;
+    color:cornflowerblue;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer .contact a:hover{
+    color: rgb(56, 47, 47);
+}
